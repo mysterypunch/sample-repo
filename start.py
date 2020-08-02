@@ -4,7 +4,7 @@ from os import rename
 
 import requests
 
-# print(sys.version)
+print(sys.version)
 print(sys.executable)
 
 
@@ -16,6 +16,4 @@ def greet(who_to_greet):
 r = requests.get("https://espn.com")
 print(r.status_code)
 print(r.ok)
-
-print(greet("World"))
-print(greet("Corey"))
+print(greet("John"))
